@@ -4,17 +4,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 li {
-  list-style-type: none;
+  list-style-type: none; 
 }
 
 p {
   line-height: 1.5;
   font-size: 16px;
-} 
+}
 
 section {
   background-color: rgb(245, 245, 245);
@@ -22,20 +22,21 @@ section {
 
 .title {
   font-size: 120px;
-  margin-bottom: 12px;
+  margin-top: 12px;
   text-align: left;
   line-height: 1;
 }
 
 .brown {
-  color: brown !important;
+  color: brown;
 }
 
-/*
+/* 
 
   LANDING PAGE
 
 */
+
 #landing-page {
   min-height: 100vh;
 }
@@ -49,17 +50,19 @@ section {
   max-width: 1000px;
 }
 
+
+.header__para {
+  font-size: 24px;
+  line-height: 2;
+  max-width: 450;
+}
+
+
 /*
 
   NAVIGATION
 
 */
-
-.header__para {
-  font-size: 24px;
-  line-height: 2;
-  max-width: 450px;
-}
 
 .nav {
   display: flex;
@@ -72,20 +75,19 @@ section {
 }
 
 #personal-logo {
-  height: 50px;
   width: 75px;
+  height: 50px;
 }
 
 .nav__link--list {
   display: flex;
 }
 
-
 .nav__link {
   margin: 0 12px;
 }
 
-.nav__link__anchor {
+.nav__link--anchor {
   text-decoration: none;
   font-size: 16px;
   color: #242424;
