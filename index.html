@@ -5,11 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Herman Moothery</title>
   <link rel="stylesheet" href="style.css">
-  <script src="//kit.fontawesome.com/c8e4d183c2.js"> crossorigin="anonymous"</script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
 </head>
 <body>
   <section id="landing-page">
-    <nav>
+    <nav class="nav">
       <img id="personal-logo" src="https://www.bing.com/th/id/OIP.9dkqdrNVsG1H1vef6Km9tgHaE8?w=193&h=135&c=8&rs=1&qlt=90&r=0&o=6&dpr=1.2&pid=ImgAns&rm=2"> 
         <ul class="nav__link--list">
           <li class="nav__link">
@@ -32,7 +33,7 @@
             link__hover-effect
             link__hover-effect--black
             ">Contact</a>
-          <li class="nav__link">
+          <li class="nav__link click">
             <a href="#" class=" 
             nav__link--anchor
             link__hover-effect
@@ -43,18 +44,33 @@
     </nav>
     <header class="header">
       <div class="header__content">
-        <h1 class="title">Hey</h1>
-        <h1 class="title brown">I'm Herman.</h1>
+        <h1 class="title">Hello!</h1>
+        <h1 class="title blue">I'm Herman.</h1>
         <p class="header__para">
-          I'm a <b class="brown">Frontend Software Engineer</b> with a strong 
-           passion for building web applications, with great user experiences.
+          I'm a <b class="blue">Frontend Software Engineer</b> with a strong 
+           passion for building web applications, and with great user experiences.
           <br>
-          Here is more <b class="brown">about me</b>.
+          Here is more <b class="blue">about me</b>.
         </p>
-      </div>
-
-      </div>
+        <div class="social__list">
+          <a href="www.linkedin.com/in/herman-moothery-0113jan3" target="_blank" class="social__link click">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="https://www.github.com/HermJr" class="social__link click">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.herman.moothery@icloud.com" class="social__link click">
+            <i class="fa-solid fa-info"></i>
+          </a>
+        </div>
+      </div>  
     </header>
+    <button class="mail__btn click">
+      <i class="fas fa-envelope"></i>
+    </button>
+    <a href="#projects" class="scroll">
+      <div class="scroll__icon click"></div>
+    </a>
   </section>
 <body>
 </html>
